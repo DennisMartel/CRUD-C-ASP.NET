@@ -1,6 +1,6 @@
-using Microsoft.AspNetCore.Mvc.RazorPages;
 using Crud.models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 
 namespace Crud.Pages.alumnos
@@ -14,7 +14,7 @@ namespace Crud.Pages.alumnos
             _context = context;
         }
 
-        public IEnumerable<Alumno> Alumnos { get; set; } 
+        public IEnumerable<Alumno> Alumnos { get; set; }
 
         public async Task OnGet()
         {

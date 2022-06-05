@@ -1,6 +1,6 @@
+using Crud.models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Crud.models;
 
 namespace Crud.Pages.alumnos
 {
@@ -22,7 +22,7 @@ namespace Crud.Pages.alumnos
 
         public async Task<IActionResult> OnPost()
         {
-            if(!ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 return Page();
             }
@@ -30,7 +30,7 @@ namespace Crud.Pages.alumnos
             _context.Add(Alumno);
 
             await _context.SaveChangesAsync();
-            
+
             return RedirectToPage("Index");
         }
     }

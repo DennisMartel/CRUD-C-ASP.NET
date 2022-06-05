@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace Crud.models
+﻿namespace Crud.models
 {
     public class Alumno
     {
