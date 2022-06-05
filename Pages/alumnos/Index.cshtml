@@ -4,6 +4,64 @@
     ViewData["Title"] = "Alumnos";
 }
 
-<div>
-    LISTA DE ALUMNOS
+<div class="container">
+    <div class="d-flex justify-content-between align-items-center">
+        <h3>
+            Lista de Alumnos
+        </h3>
+        <a href="/alumnos/Create" class="btn btn-primary">
+            Registrar alumno
+        </a>
+    </div>
+    <div class="row">
+        <div class="card p-0 mt-3">
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <form method="post">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Nombre</th>
+                                    <th scope="col">Apellido</th>
+                                    <th scope="col">Teléfono</th>
+                                    <th scope="col">Correo</th>
+                                    <th scope="col">Dirección</th>
+                                    <th scope="col">Cumpleaños</th>
+                                    <th scope="col">Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if(Model.Alumnos.Count() > 0)
+                                {
+                                    @foreach (var alumno in Model.Alumnos)
+                                    {
+                                        <tr>
+                                            <td>@alumno.names</td>
+                                            <td>@alumno.lastnames</td>
+                                            <td>@alumno.phone</td>
+                                            <td>@alumno.email</td>
+                                            <td>@alumno.address</td>
+                                            <td>@alumno.birthday</td>
+                                            <td>
+                                                <div class="d-flex">
+                                                    <button asp-page-handler="Delete" asp-route-id="@alumno.Id" onclick="return confirm('¿Estás seguro de borrar el registro?')" class="btn btn-danger me-2">Eliminar</button>
+                                                    <a asp-route-id="@alumno.Id" asp-page="Edit" class="btn btn-primary">Editar</a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    }
+                                }
+                                else
+                                {
+                                    <tr>
+                                        <td colspan="7" class="text-center">No se encontraron registros</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

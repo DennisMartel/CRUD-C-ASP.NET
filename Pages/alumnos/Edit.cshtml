@@ -1,7 +1,7 @@
 ﻿@page
-@model Crud.Pages.alumnos.CreateModel
+@model Crud.Pages.alumnos.EditModel
 @{
-    ViewData["Title"] = "Registrar nuevo alumno";
+    ViewData["Title"] = "Editar alumno";
 }
 
 <div class="container">
@@ -9,9 +9,12 @@
         <div class="col-md-6">
             <form method="post">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <input type="hidden" asp-for="Alumno.Id"/>
+
                 <div class="card">
                     <div class="card-header">
-                        Registrar nuevo alumno
+                        Editar alumno
                     </div>
                     <div class="card-body">
                         <div class="mb-3">
@@ -52,7 +55,7 @@
                     </div>
                     <div class="card-footer">
                         <button type="submit" class="btn btn-primary float-end">
-                            Registrar
+                            Actualizar
                         </button>
                     </div>
                 </div>

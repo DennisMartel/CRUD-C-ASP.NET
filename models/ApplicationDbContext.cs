@@ -9,6 +9,7 @@ namespace Crud.models
 
         }
 
-        //public DbSet<Curso> Curso { get, set; }
+        public DbSet<Alumno> Alumnos{ get; set; }
+        public DbSet<Materia> Materias { get; set; }
     }
 }

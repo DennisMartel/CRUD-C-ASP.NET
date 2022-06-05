@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dennis\\OneDrive\\Documentos\\Prueba Técnica Recursos\\Crud\\Crud\\Crud.csproj": {}
+    "C:\\Users\\Dennis\\OneDrive\\Documentos\\Prueba Técnica Recursos\\CRUD\\Crud\\Crud.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dennis\\OneDrive\\Documentos\\Prueba Técnica Recursos\\Crud\\Crud\\Crud.csproj": {
+    "C:\\Users\\Dennis\\OneDrive\\Documentos\\Prueba Técnica Recursos\\CRUD\\Crud\\Crud.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dennis\\OneDrive\\Documentos\\Prueba Técnica Recursos\\Crud\\Crud\\Crud.csproj",
+        "projectUniqueName": "C:\\Users\\Dennis\\OneDrive\\Documentos\\Prueba Técnica Recursos\\CRUD\\Crud\\Crud.csproj",
         "projectName": "Crud",
-        "projectPath": "C:\\Users\\Dennis\\OneDrive\\Documentos\\Prueba Técnica Recursos\\Crud\\Crud\\Crud.csproj",
+        "projectPath": "C:\\Users\\Dennis\\OneDrive\\Documentos\\Prueba Técnica Recursos\\CRUD\\Crud\\Crud.csproj",
         "packagesPath": "C:\\Users\\Dennis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dennis\\OneDrive\\Documentos\\Prueba Técnica Recursos\\Crud\\Crud\\obj\\",
+        "outputPath": "C:\\Users\\Dennis\\OneDrive\\Documentos\\Prueba Técnica Recursos\\CRUD\\Crud\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dennis\\AppData\\Roaming\\NuGet\\NuGet.Config",

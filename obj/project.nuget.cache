@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8reAw5i4DHVLSGSUxVVyewxE5UOfZWjYUf4J+HeN20qe/6v9KWAaZra2V9VylvhDfUQ9d3XamEHJA7B7gOFajA==",
+  "dgSpecHash": "b596kwmcG6ytrvfZtTS4HldYaur7Ws/htITbOLSyh22B7B2l0K8TgnMDYaPuec0/qGBTK7I0Rwjxe6u8MnL8/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dennis\\OneDrive\\Documentos\\Prueba Técnica Recursos\\Crud\\Crud\\Crud.csproj",
+  "projectFilePath": "C:\\Users\\Dennis\\OneDrive\\Documentos\\Prueba Técnica Recursos\\CRUD\\Crud\\Crud.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dennis\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Dennis\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
